@@ -18,7 +18,7 @@ Parameters:
     Description: The ARN of the ACM certificate for HTTPS (e.g., arn:aws:acm:us-east-1:123456789012:certificate/abc123).
   HostedZoneId:
     Type: String
-    Description: The Route53 hosted zone ID for the domain (e.g., Z01831171PFQXLP36GUY2).
+    Description: The Route53 hosted zone ID for the domain (e.g., Z01XXXXXXXXXXXXXXXXXXX).
 
 Resources:
   # S3 Bucket for Static Website Redirect
