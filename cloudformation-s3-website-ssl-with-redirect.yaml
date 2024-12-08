@@ -85,7 +85,7 @@ Resources:
       Name: !Ref DomainName
       Type: A
       AliasTarget:
-        HostedZoneId: "Z2FDTNDATAQYW2" # Hosted zone ID for CloudFront
+        HostedZoneId: "UPDATEWITHYOURZONEIDHERE" # Hosted zone ID for CloudFront
         DNSName: !GetAtt CloudFrontDistribution.DomainName
         EvaluateTargetHealth: false
 
